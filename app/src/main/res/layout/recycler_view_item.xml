@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="horizontal"
+              android:padding="8dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:orientation="vertical"
+      android:padding="10dp"
+      tools:ignore="UselessParent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+      <ImageButton
+          android:id="@+id/btEditar"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:contentDescription="Editar"
+          android:src="@android:drawable/ic_menu_edit" />
+
+      <ImageButton
+          android:id="@+id/btExcluir"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:contentDescription="Excluir"
+          android:scaleType="centerInside"
+          android:src="@android:drawable/ic_menu_delete" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+      <TextView
+          android:id="@+id/tVSeqLogin"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          tools:text="@tools:sample/lorem[3]" />
+
+      <TextView
+          android:id="@+id/tVLogin"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          tools:text="@tools:sample/lorem[4]" />
+
+      <TextView
+          android:id="@+id/tVSenha"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          tools:text="@tools:sample/lorem[2]" />
+
+      <TextView
+          android:id="@+id/tVLoginAlt"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="TextView" />
+
+      <TextView
+          android:id="@+id/tVLoginCadastro"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="TextView" />
+
+      <TextView
+          android:id="@+id/tVDtaCriacao"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="TextView" />
+
+      <TextView
+          android:id="@+id/tVDtaAlteracao"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="TextView" />
+    </LinearLayout>
+
+  </LinearLayout>
+
+</LinearLayout>
